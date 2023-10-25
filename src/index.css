@@ -1,0 +1,234 @@
+:root {
+  color: black;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PessoaLista.css */
+
+/* Estilo para o contêiner principal */
+.container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo para o título da lista de pessoas */
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo para o link de adicionar registro */
+.link-add {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.link-add:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para a tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table,
+th,
+td {
+  border: 1px solid #e0e0e0;
+}
+
+/* Estilo para o cabeçalho da tabela */
+table th {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Estilo para as células da tabela */
+table td {
+  padding: 10px;
+  text-align: center;
+
+}
+
+/* Estilo para os botões */
+
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-size: 32px;
+
+}
+
+.add {
+  background-color: #47ff56;
+  color: #ffffff;
+  border: none;
+  padding: 25px 26px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.add a {
+  color: #ffffff;
+}
+
+
+.editar {
+  background-color: #f3ff47;
+  color: #ffffff;
+  border: none;
+  padding: 25px 30px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.editar a {
+  color: #818181;
+}
+
+.editar:hover {
+  background-color: #fffb19;
+}
+
+.excluir {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 25px 30px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.excluir a {
+  color: #ffffff;
+}
+
+.excluir:hover {
+  background-color: #ff3019;
+}
+
+.mais {
+  background-color: #56ad44;
+  color: #fff;
+  border: none;
+  padding: 25px 30px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.mais a {
+  color: #ffffff;
+}
+
+.mais:hover {
+  background-color: #4aac36;
+}
+
+
+
+.form-container {
+  width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 1px 0px 1.2px 0px #e3e3e3;
+  border-radius: 3px;
+  padding: 1em;
+}
+
+
+h1 {
+  font-size: 2.3em;
+  color: #00dae0;
+  border-bottom: 1px #f0eded solid;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+
+.form-group {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+
+label {
+    width: 80%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+input[type="date"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+
+.button-submit {
+  float: left;
+  display: block;
+  padding: 25px 30px;
+  border: none;
+  outline: none;
+  background-color: #6fcffb;
+  color: #fff;
+  text-shadow: 0 0 5px rgb(0, 0, 0);
+  font-family: inherit;
+  font-size: 25px;
+  border-radius: 6px;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button-submit:hover {
+  background-color: #0056b3;
+}
+
+.cancela {
+  color: #c42525;
+  
+}
